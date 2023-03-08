@@ -1,4 +1,6 @@
-header {
+
+
+.Top-header {
     display: flex;
     flex-direction: row ;
     line-height: 1;
@@ -11,5 +13,21 @@ padding: 2%;
 
 nav ul { display: flex;
 justify-content: space-between;
-min-width: 400px; 
+min-width: 300px; 
+
+}
+
+section.Aboutme {
+    color:maroon;
+    background-color: bisque;
+}
+
+section.Mywork {
+    color: black;
+    background-color: blue;
+}
+
+section.Contactme {
+    color: blueviolet;
+    background-color: black;
 }
