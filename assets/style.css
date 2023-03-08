@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: row ;
+    line-height: 1;
+background-color: bisque;
+color: maroon;
+font-size: 20px;
+justify-content: space-between;
+padding: 2%;
+}
+
+nav ul { display: flex;
+justify-content: space-between;
+min-width: 400px; 
+}
