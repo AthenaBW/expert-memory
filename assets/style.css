@@ -1,63 +1,93 @@
-
-* {
-    box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
 body { margin:0; 
-background-color: rgb(6, 65, 6);}
-
+}
+/* h1 section  */
 header {
 background-color: rgb(152, 132, 106);
 color: maroon;
 text-align: center;
 justify-content: center;
 padding: 40px;
-border: 6px solid rgb(48, 27, 1);
+border: 30px solid rgb(48, 27, 1);
 }
 
+/* Navigation Links */
 nav ul { display: flex;
     flex-wrap: wrap;
 justify-content: space-between;
 color: rgb(99, 19, 16);
 }
 
-
+/* About me */
 .About { display: inline-block;
     color:maroon;
     background-color: bisque;
     text-align:center;
-    border: 10px solid rgb(48, 27, 1);
+    border: 30px solid rgb(48, 27, 1);
     width: 100%;
     height: 600px;
+    margin-bottom: auto;
     
  }
-
+/* About me Avatar */
 .About img { width: 600px;
     height: 300px;
 
 }
 
-.Work 
-{display: flex;
-    color:maroon;
-    background-color: bisque;
-    text-align:start;
-    justify-content: center;
-    border: 10px solid rgb(48, 27, 1);
-    width: 100%;
-    
-} 
-h2{display: flex;
-    justify-content:center ;
-    font-size: 40px;
+/* My work section - Background and Borders only */
+.Work {
+    background-color: bisque ;
+    border: 30px solid rgb(48, 27, 1);
 }
-.Work img 
-{ margin: 30px;
+ 
+/* My work section; images only */
+.Work img{
+    display: flex;
     flex-direction: row;
-display: flex;
-border: 30px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 20px;
+  align-items: center;
+  border-color: #13373d;
+  margin-left: 800px;
+background: #ae8349 
 }
+ /* My work section: Prework Study Guide Img */
+.large p { 
+    transform: rotate(7deg);
+    padding: 10px 20px;
 
+  }
+
+  /* My work section: Portfolio img */
+  .medium p {display: block;
+        transform: rotate(7deg);
+        padding: 10px 10px;
+      }
+
+  /* All h2 sections */
+h2 {
+    display: block;
+    padding: 20px;
+    background: #13373d;
+    color: rgb(255, 222, 222);
+    text-align: center;
+    width: 100%;
+
+  }
+/* All h3 sections */
+h3 {  display: block;
+    padding: 30px;
+    background: #ae8349;
+    color: rgb(255, 222, 222);
+    text-align: center;
+    
+
+}
+/* Footer / Contact me section */
     .Contact { flex-wrap: wrap;
         color:maroon;
         background-color: bisque;
@@ -65,4 +95,6 @@ border: 30px;
         border: 10px solid rgb(48, 27, 1);
         width: 100%;
         height: 200px;
-        order: -1; }
+         }
+
+        
