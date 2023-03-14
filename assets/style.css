@@ -1,74 +1,85 @@
-* {box-sizing: border-box;}
-
-body { margin:0; 
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
 /* h1 section  */
 header {
-background-color: rgb(152, 132, 106);
-color: maroon;
-text-align: center;
-justify-content: center;
-padding: 40px;
-border: 30px solid rgb(48, 27, 1);
+    display: block;
+    background-color: rgb(152, 132, 106);
+    color: maroon;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    border: 30px solid rgb(48, 27, 1);
 }
 
 /* Navigation Links */
-nav ul { display: flex;
+nav ul {
+    display: flex;
     flex-wrap: wrap;
-justify-content: space-between;
-color: rgb(99, 19, 16);
+    justify-content: space-between;
+    color: rgb(99, 19, 16);
 }
 
 /* About me */
-.About { display: inline-block;
-    color:maroon;
+.About {
+    display: inline-block;
+    color: maroon;
     background-color: bisque;
-    text-align:center;
+    text-align: center;
     border: 30px solid rgb(48, 27, 1);
     width: 100%;
     height: 600px;
     margin-bottom: auto;
-    
- }
+
+}
+
 /* About me Avatar */
-.About img { width: 600px;
+.About img {
+    max-width: 600px;
     height: 300px;
 
 }
 
 /* My work section - Background and Borders only */
 .Work {
-    background-color: bisque ;
+    margin: 0;
+    background-color: bisque;
     border: 30px solid rgb(48, 27, 1);
 }
- 
+
 /* My work section; images only */
-.Work img{
+.Work img {
+    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 10px 10px 10px 10px;
-  border-style: solid;
-  border-width: 20px;
-  align-items: center;
-  border-color: #13373d;
-  margin-left: 800px;
-background: #ae8349 
+    position: relative;
+    left: 400px;
+    border-style: solid;
+    border-width: 20px;
+    align-items: center;
+    border-color: #13373d;
+    background: #ae8349
 }
- /* My work section: Prework Study Guide Img */
-.large p { 
-    transform: rotate(7deg);
-    padding: 10px 20px;
 
-  }
+/* My work section: Prework Study Guide Img */
+.large p {
+    transform: rotate(10deg);
 
-  /* My work section: Portfolio img */
-  .medium p {display: block;
-        transform: rotate(7deg);
-        padding: 10px 10px;
-      }
+}
 
-  /* All h2 sections */
+/* My work section: Portfolio img */
+.medium p {
+    display: block;
+    transform: rotate(8deg);
+    padding: 10px 10px;
+}
+
+/* All h2 sections */
 h2 {
     display: block;
     padding: 20px;
@@ -77,24 +88,26 @@ h2 {
     text-align: center;
     width: 100%;
 
-  }
+}
+
 /* All h3 sections */
-h3 {  display: block;
+h3 {
+    display: block;
     padding: 30px;
     background: #ae8349;
     color: rgb(255, 222, 222);
     text-align: center;
-    
+
 
 }
-/* Footer / Contact me section */
-    .Contact { flex-wrap: wrap;
-        color:maroon;
-        background-color: bisque;
-        text-align:center;
-        border: 10px solid rgb(48, 27, 1);
-        width: 100%;
-        height: 200px;
-         }
 
-        
+/* Footer / Contact me section */
+.Contact {
+    flex-wrap: wrap;
+    color: maroon;
+    background-color: bisque;
+    text-align: center;
+    border: 10px solid rgb(48, 27, 1);
+    width: 100%;
+    height: 200px;
+}
